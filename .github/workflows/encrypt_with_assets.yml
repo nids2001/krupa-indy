@@ -42,7 +42,7 @@ jobs:
           staticrypt index.html -p ${{ secrets.DECRYPTION_PASSPHRASE }} --short
           --template "password_template.html"
           --template-title "Welcome!"
-          --template-instructions "Welcome to Krupa and Indy's wedding website. Please enter the "kinder" to view the contents."
+          --template-instructions "Welcome to Krupa and Indy's wedding website. Please enter "kinder" to view the contents."
           --template-button "Open Page"
           --template-color-primary "#113e9f"
           --template-color-secondary "#e4e4e4"
